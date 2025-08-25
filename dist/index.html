@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Video Superprompt Generator</title>
+    <link rel="shortcut icon" href="/assets/favicon-DIIX4Bmi.ico" type="image/x-icon" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1122624959641494"
+     crossorigin="anonymous"></script>
+<!--in importmap replace the google/genai if you use OpenAI or etc...-->
+
+<style>
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out forwards;
+  }
+  html { 
+    scroll-behavior: smooth; 
+  }
+  body { 
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+    background-color: #0f172a; /* bg-slate-900 */
+  }
+  #root { 
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column;
+  }
+  /* Custom styled dropdown arrow */
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%2394a3b8%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22/%3E%3C/svg%3E');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: .65em auto;
+  }
+  select:disabled {
+    opacity: 0.5;
+  }
+  option {
+    background-color: #1e293b; /* bg-slate-800 */
+    color: #cbd5e1; /* text-slate-300 */
+  }
+</style>
+  <script type="importmap"> 
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai" 
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-DVI_GsJU.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-i_2Aqk3n.css">
+</head>
+  <body class="bg-slate-900">
+    <div id="root"></div>
+  </body>
+</html>
