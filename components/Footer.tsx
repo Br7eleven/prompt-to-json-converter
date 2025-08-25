@@ -1,13 +1,12 @@
 import React from 'react';
 import { GithubIcon } from './icons/GithubIcon';
-import {  XIcon } from './icons/XIcon';
+import { XIcon } from './icons/XIcon';
 import { YoutubeIcon } from './icons/YoutubeIcon';
+import { useNavigate } from 'react-router-dom';
 
-interface FooterProps {
-  onNavClick: (page: string) => void;
-}
+const Footer: React.FC = () => {
+  const navigate = useNavigate();
 
-const Footer: React.FC<FooterProps> = ({ onNavClick }) => {
   return (
     <footer className="bg-slate-900 border-t border-slate-800">
       <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
@@ -16,7 +15,10 @@ const Footer: React.FC<FooterProps> = ({ onNavClick }) => {
             &copy; {new Date().getFullYear()} VEO 3 Superprompt Builder. All rights reserved.
           </p>
           <div className="flex items-center space-x-6">
-            <button onClick={() => onNavClick('Terms')} className="text-sm text-slate-400 hover:text-white transition-colors">
+            <button
+              onClick={() => navigate('/terms')}
+              className="text-sm text-slate-400 hover:text-white transition-colors"
+            >
               Terms & Conditions
             </button>
             <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">
