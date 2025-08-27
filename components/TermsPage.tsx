@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const TermsPage: React.FC = () => {
   return (
     <div className="animate-fade-in py-12">
@@ -73,3 +74,4 @@ const TermsPage: React.FC = () => {
 };
 
 export default TermsPage;
+export const passToClient = ["pageProps"]

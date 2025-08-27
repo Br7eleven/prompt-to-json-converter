@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const AboutPage: React.FC = () => {
   return (
     <div className="animate-fade-in py-12">
@@ -45,3 +46,4 @@ const AboutPage: React.FC = () => {
 };
 
 export default AboutPage;
+export const passToClient = ["pageProps"]

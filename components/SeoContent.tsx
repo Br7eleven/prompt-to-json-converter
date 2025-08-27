@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const SeoContent: React.FC = () => {
   return (
     <div className="mt-20 py-12 bg-slate-900/50 rounded-2xl border border-slate-800">
@@ -71,3 +72,4 @@ const SeoContent: React.FC = () => {
 };
 
 export default SeoContent;
+

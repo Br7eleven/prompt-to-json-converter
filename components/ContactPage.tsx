@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const ContactPage: React.FC = () => {
   return (
     <div className="animate-fade-in py-12">
@@ -32,3 +33,4 @@ const ContactPage: React.FC = () => {
 };
 
 export default ContactPage;
+export const passToClient = ["pageProps"]
