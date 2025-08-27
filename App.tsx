@@ -14,7 +14,7 @@ const App: React.FC = () => {
     <HelmetProvider>
       <div className="flex flex-col min-h-screen bg-slate-900 text-slate-200 font-sans">
         <Helmet>
-          <title>VEO 3 JSON Prompt Generator | Prompt to JSON Converter</title>
+          <title>VEO 3 JSON Prompt Generator | Prompt to JSON Converter </title>
           <meta
             name="description"
             content="Generate structured JSON prompts for VEO 3 AI video. Free tool for AI developers and creators."
