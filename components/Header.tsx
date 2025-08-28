@@ -23,7 +23,7 @@ const Header: React.FC = () => {
               className="flex-shrink-0 flex items-center gap-2 focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-md"
             >
               <AppleIcon />
-              <span className="text-white font-bold text-xl">VEO 3 Superprompt Builder</span>
+              <span className="text-white font-bold text-xl">VEO 3 JSON Prompt Converter</span>
             </button>
           </div>
           <div className="hidden md:block">

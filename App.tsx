@@ -14,23 +14,23 @@ const App: React.FC = () => {
     <HelmetProvider>
       <div className="flex flex-col min-h-screen bg-slate-900 text-slate-200 font-sans">
         <Helmet>
-          <title>VEO 3 JSON Prompt Generator | Prompt to JSON Converter </title>
+          <title>Prompt to JSON Converter For Veo3</title>
           <meta
             name="description"
-            content="Generate structured JSON prompts for VEO 3 AI video. Free tool for AI developers and creators."
+            content="convert json prompt for Veo3 AI converter. json builder. json prompting"
           />
           <meta
             name="keywords"
-            content="veo 3 prompt generator, prompt to json converter, AI video, structured prompts, json ai tool"
+            content="veo3 prompt converter, prompt to json converter, AI video, structured prompt, json ai tool"
           />
           <meta
             name="google-site-verification"
-            content="YOUR_VERIFICATION_CODE"
+            content="Ygoogle-site-verification=vWFC99rddhvwKE6hEqM568X0P7Y8MKXDoXGZ4GRXRD8"
           />
           <meta name="robots" content="index, follow" />
 
           {/* Open Graph */}
-          <meta property="og:title" content="VEO 3 JSON Prompt Generator" />
+          <meta property="og:title" content=" Prompt to json converter" />
           <meta
             property="og:description"
             content="Generate JSON prompts for VEO 3 AI video fast and free."
