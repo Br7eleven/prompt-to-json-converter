@@ -15,10 +15,10 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
     <MetaTags
-        title="VEO 3 JSON Prompt Generator | Prompt to JSON Converter"
+        title="Prompt to JSON Converter VEO 3 JSON Prompt Generator | Free AI Video Prompt Builder"
         description="Craft the perfect AI video prompt with VEO 3 Superprompt Builder. Transform ideas into structured JSON for cinematic AI video generation. Free and easy to use."
-        url="https://json-prompter.vercel.app/"
-        image="https://json-prompter.vercel.app/preview.png"
+        url="https://jsontoprompt.site/"
+         image="https://jsontoprompt.site/preview.png"
       />
       <App />
     </BrowserRouter>
